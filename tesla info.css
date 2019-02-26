@@ -1,0 +1,67 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/download_img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    min-height: 11.37%;
+    background-color: rgba(59, 59, 59, 0.55);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header a{
+    color: rgba(255, 255, 255, 0.85);
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-size: 135%;
+    
+}
+
+
+.header a:hover{
+    color: black;
+    
+}
+
+.main{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+    text-align: center;
+}
+
+.main p{
+    margin-top:0%;
+    padding: 5% 5.57% 0% 5% ;
+    font-family:  "Montserrat";
+    text-align:left;
+    font-size: 24px;
+     color: white;
+}
+
+.main a{
+    font-family: "Montserrat";
+    font-size: 18px;
+    text-decoration: none;
+    display:inline-block;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba( 255, 255, 255, 0.35);
+    padding: 1.17% 6.5%;
+    border-radius: 27px;
+
+}
+.main a:hover{
+    color: black;
+    background: rgba(247, 231, 206, 0.75);
+
+}
